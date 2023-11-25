@@ -32,6 +32,11 @@ for char in name:
 note- char & name ki jgh can use any variable for each character & name of the string respectively.
 (Above code prints all the characters in the string name one by one!)
 
+* to check some charcters present in string or not:
+    a_string = "hellooo"
+    if "llo" in a_string:
+        print('yes!')
+        
 * Length of a String
 We can find the length of a string using len() function.
 Example:

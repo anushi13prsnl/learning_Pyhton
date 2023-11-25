@@ -21,7 +21,16 @@ By default, python provides the following built-in data types:
 
 1. Numeric data: int, float, complex
 int: 3, -8, 0
+
 float: 7.349, -9.0, 0.0000001
+if want only 2/3.. decimal places -> can use format() OR round()
+eg. x=round(3.95667,2)
+    print(x)              #ouput- 3.95
+
+    x=3.9876
+    y=round(x,2)
+    print(y)              #ouput- 3.98
+
 complex: 6 + 2i
 
 2. Text data: str
