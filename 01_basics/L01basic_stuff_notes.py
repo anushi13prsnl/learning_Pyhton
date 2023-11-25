@@ -42,13 +42,18 @@ multi-line   -  ''' '''  | """ """ | can use # before start of each line
   print("i am anushi
   and i am a good girl") | output - error as not allowed
 
-Thus to use ""/'' in string OR nxt line while printing, need escape sequence characters...
+Thus to use "" OR '' in string OR nxt line while printing, need escape sequence characters...
+(to use "" OR '' in string -> agr bahr used'' undr can use "" vice-versa )
+eg- print("swdefigfruirt ifegg4 biur44t n444g5 'rg' t5h4uiht gt5k55") #works well & vice-versa too
 
 * escape sequence character -->
 To insert characters that cannot be directly used in a string, we use an escape sequence character.
 An escape sequence character is a backslash \ followed by the character you want to insert.
 eg. \n (for nxt line)
-    \' (to add ' in string)
-    \" (to add " in string)
+    \' (to add ' in string no matter bahr used ' or ")
+    \" (to add " in string no matter bahr used ' or ")
+
 
 '''
+
+

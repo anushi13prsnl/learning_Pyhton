@@ -17,6 +17,7 @@ print(type(c))  #float
 
 '''
 By default, python provides the following built-in data types:
+[BY DEFAULT IN PYTHON EVERYTHING IS AN OBJECT - will discuss this later...]
 
 1. Numeric data: int, float, complex
 int: 3, -8, 0
