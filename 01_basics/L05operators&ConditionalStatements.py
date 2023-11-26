@@ -65,3 +65,22 @@ elif (num > 0):
         print("Number is greater than 20")
 else:
     print("Number is zero")
+# _____________________________________________________________________________________________________________________________
+# If ... Else in One Line:
+# a = 2
+# b = 330
+# print("A") if a > b else print("B")
+
+# One line if else statement, with 3 conditions:
+# a = 330
+# b = 330
+# print("A") if a > b else print("=") if a == b else print("B")
+
+# ALL IN ALL:
+# result = value_if_true if condition else value_if_false
+
+# This syntax is equivalent to the following if-else statement:
+# if condition:
+#     result = value_if_true
+# else:
+#     result = value_if_false

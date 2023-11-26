@@ -83,4 +83,47 @@ syntax:
 do{
 
 }while(condition)
+_________________________________________________________________________________________________________________________________________________________
+** LOOPS(for&while loop) K SATH ELSE STATEMENT BHI LGAYI JA SKTI HAI!
+else statement tbhi execute hogi jbh jo loop hai properly end hoga...
+i.e kisi break statement ki wjh se end nhi hoga!
 '''
+#case-1(i)(loop ends properly so else executes)
+i = 0
+while i<7:
+  print(i)
+  i = i + 1
+else:
+  print("Sorry no i")
+
+#case-1(ii)(loop ends properly so else executes)
+khana = ["roti","sbzi","chawal"]
+for i in khana:
+  if i=="prantha":
+    break
+else:
+  print("abcd")
+
+#_______________________________________________________________________________________________
+#case-2(i)(loop ends bcz of break so else does not execute)
+i = 0
+while i<7:
+  print(i)
+  i = i + 1
+  if i == 4:
+    break
+else:
+  print("Sorry no i")
+
+#ccase-2(ii)(loop ends bcz of break so else does not execute)
+khana = ["roti","sbzi","chawal"]
+for i in khana:
+  if i=="roti":
+    break
+else:
+  print("abcd")
+
+# ______________________________________________________________________________________________________________________
+# LEARN ABOUT ENUMERATE FUNCTIONS - L19
+
+
